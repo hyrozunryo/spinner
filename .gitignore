@@ -1,0 +1,27 @@
+
+app/DevExtreme/devextreme-license.js
+
+# Dependencies
+node_modules/
+
+# Build output
+out/
+dist/
+release/
+
+# Electron Forge
+maker-*
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/*
+!.vscode/settings.json

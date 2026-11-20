@@ -1,0 +1,63 @@
+.widget-container {
+  margin-right: 20px;
+  padding: 20px;
+  max-width: 850px;
+  min-width: 300px;
+}
+
+#form {
+  margin-top: 25px;
+}
+
+#select-company-text {
+  display: none;
+}
+
+.options {
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 260px;
+  top: 0;
+  background-color: rgba(191, 191, 191, 0.15);
+}
+
+.caption {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.option {
+  margin-top: 10px;
+}
+
+#loadPanel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.typewriter {
+  /* Use a monospace font for a classic look */
+  font-family: monospace; 
+  /* Add a blinking cursor effect */
+  border-right: .15em solid black; /* The "cursor" */
+  white-space: nowrap; /* Prevents the text from wrapping to the next line */
+  overflow: hidden; /* Hides the extra text until typed */
+  animation: 
+    blink-caret .75s step-end infinite;
+}
+
+/* The blinking cursor animation */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: black }
+}
+
+#typewriter-text {
+  display: flex;
+  color: #39FF14;
+  font-weight: bold;
+  font-size: 24px;
+}

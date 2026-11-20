@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+  <head>
+    <title>Spinner Package Builder</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    <meta http-equiv="Content-Security-Policy"
+      content="
+        default-src 'self';
+        script-src  'self';
+        style-src   'self' https://fonts.googleapis.com 'unsafe-inline';
+        font-src    'self' https://fonts.gstatic.com;
+        img-src     'self' data:;
+        connect-src 'self';
+      ">
+
+    <!--<meta http-equiv="Content-Security-Policy"
+      content="default-src 'self';
+               script-src 'self' https://code.jquery.com https://cdn3.devexpress.com https://fonts.googleapis.com;
+               style-src  'self' https://cdn3.devexpress.com 'unsafe-inline';
+               img-src 'self' data:;
+               connect-src 'self';">-->
+
+
+    <!-- jQuery FIRST -->
+    <script src="DevExtreme/js/jquery.min.js"></script>
+  
+    <!-- DevExtreme CSS & JS (same version) -->
+    <link rel="stylesheet" href="DevExtreme/css/dx.material.orange.dark.css">
+    <script src="DevExtreme/js/dx.all.js"></script>
+  
+    <script src="DevExtreme/devextreme-license.js"></script>
+    <script src="data.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="index.js"></script>
+
+  </head>
+
+  <body class="dx-viewport">
+    <div id="loadPanel">
+      <p id="typewriter-text"></p>
+      <audio id="typing-sound" src="audio/mixkit-hard-typewriter-click-1119_short.wav" preload="auto"></audio>
+    </div>
+    <div id="mainContent" style="display:none;">
+      <div id="form-spinner">
+        <div class="widget-container">
+          <!--<img src="./images/Lippert.png" alt="Lippert" style="width:400px;height:70px;">-->
+          <img src="./images/LippertLogo3c_whitegreyredorangeontransparent_RGB.svg" alt="Lippert" style="width:400px;height:70px;">
+          <form action="/employee-page" id="form-container">
+            <div id="form"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!--<button id="openWebpageModal">Open Webpage Modal</button>-->
+  </body>
+  <script src="./renderer.js"></script>
+</html>
